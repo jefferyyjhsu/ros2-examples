@@ -34,8 +34,7 @@ install(TARGETS
   #subscriber_member_function
   #subscriber_member_function_with_topic_statistics
   #subscriber_member_function_with_unique_network_flow_endpoints
-  #:wq
-  subscriber_not_composable
+  #subscriber_not_composable
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
